@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YO</title>
+</head>
+<body>
+    <script>
+        const value1=parseInt(prompt('Masukkan angka pertama : '))
+        const value2= parseInt(prompt('Masukkan angka kedua : '))
+        let Menu= prompt(`Pilih Menu:
+        1. Penjumlahan
+        2. Pengurangan
+        3. Pembagian
+        4. Perkalian
+        5. Pangkat 2
+        6. Akar Pangkat 2
+        7. Akar Pangkat 3`)
+        // let result=0
+        switch(Menu){
+            case '1':
+                result=value1+value2
+                alert(`${value1} + ${value2} = ${result}`)
+                break
+            case '2':
+                result=value1-value2
+                alert(`${value1} - ${value2} = ${result}`)
+                break
+            case '3':
+                result=value1/value2
+                alert(`${value1} / ${value2} = ${result}`)
+                break
+            case '4':
+                result=value1*value2
+                alert(`${value1} X ${value2} = ${result}`)
+                break
+            case '5':
+                result1=value1**2
+                result2=value2**2
+                alert(`Pangkat 2 dari ${value1} adalah${result1} dan Pangkat 2 dari ${value2} adalah ${result2}`)
+                break
+            case '6':
+                result1=Math.sqrt(value1)
+                result2=Math.sqrt(value2)
+                alert(`Akar 2 dari ${value1} adalah ${result1} dan Akar 2 dari ${value2} adalah ${result2}`)
+                break
+            case '7':
+                result1=Math.cbrt(value1)
+                result2=Math.cbrt(value2)
+                alert(`Akar 3 dari ${value1} adalah ${result1} dan Akar 3 dari ${value2} adalah ${result2}`)
+                break
+            default:
+                alert('tidak ada pilihan')
+            
+                
+
+        }
+
+    </script>
+</body>
+</html>
