@@ -1,0 +1,11 @@
+let arrSTR= ['mastaka','masako','masakan','massamsul']
+arrSTR.sort()
+// console.log(arrSTR);
+let i=0
+first=arr.length
+last=arr.length-1
+
+while(i<first[i]&&i<last[i]&&first[i]==last[i]){
+    i++
+}
+
